@@ -289,7 +289,6 @@ This toolkit has been used in:
 
 - Email: mohamed.htitich@gmail.com
 - GitHub: [@MohamedHtitich1](https://github.com/MohamedHtitich1)
-- Research: Social Progress Imperative (2021-2025)
 
 ## License
 
