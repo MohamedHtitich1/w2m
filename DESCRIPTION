@@ -1,4 +1,4 @@
-Package: mwmm
+Package: w2m
 Type: Package
 Title: Measuring What Matters Most - Temporal Entropy Weighting for Sustainable Development
 Version: 1.0.0
@@ -8,13 +8,13 @@ Authors@R: person("Mohamed", "Htitich",
                   comment = c(ORCID = "0000-0000-0000-0000"))
 Description: A comprehensive toolkit for sustainable development measurement built around 
     the temporal entropy weighting method. The core 'modified_entropy()' function identifies 
-    which indicators "matter most" by measuring how their information diversity evolves over 
+    which (w) indicators "matter most" (2m) by measuring how their information diversity evolves over 
     time - indicators with higher entropy weights carry more discriminating power for 
     differentiating between countries/units. The package also provides functions for 
     composite index construction (CESP, JTS, MPI), Phillips-Sul convergence analysis, 
     segmented regression, machine learning variable importance, NMDS ordination, 
     Eurostat spatial data processing, and publication-quality visualization. 
-    Developed during research at the Social Progress Imperative (2021-2025).
+    Developed during research at the Social Progress Imperative and Palacky University (2021-2025).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -50,7 +50,7 @@ Suggests:
     rmarkdown,
     missForest,
     blavaan
-URL: https://github.com/MohamedHtitich1/mwmm
-BugReports: https://github.com/MohamedHtitich1/mwmm/issues
+URL: https://github.com/MohamedHtitich1/w2m
+BugReports: https://github.com/MohamedHtitich1/w2m/issues
 VignetteBuilder: knitr
 Config/testthat/edition: 3
