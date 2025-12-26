@@ -1,7 +1,7 @@
-# mwmm <img src="man/figures/logo.png" align="right" height="139" alt="" />
+# w2m <img src="man/figures/logo.png" align="right" height="139" alt="" />
 
 <!-- badges: start -->
-[![R-CMD-check](https://img.shields.io/badge/R--CMD--check-passing-brightgreen)](https://github.com/MohamedHtitich1/mwmm)
+[![R-CMD-check](https://img.shields.io/badge/R--CMD--check-passing-brightgreen)](https://github.com/MohamedHtitich1/w2m)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
@@ -10,7 +10,7 @@
 
 > *"Measuring what matters most for sustainable development"*
 
-**mwmm** is an R package for sustainable development measurement built around the **temporal entropy weighting** method. The core `modified_entropy()` function identifies which indicators "matter most" by measuring how their information diversity (discriminating power) evolves over time.
+**w2m** is an R package for sustainable development measurement built around the **temporal entropy weighting** method. The core `modified_entropy()` function identifies which indicators "matter most" by measuring how their information diversity (discriminating power) evolves over time.
 
 ### The Key Insight
 
@@ -24,13 +24,13 @@ Traditional composite indices assign fixed weights to indicators. But what if th
 
 ```r
 # Install from GitHub
-devtools::install_github("MohamedHtitich1/mwmm")
+devtools::install_github("MohamedHtitich1/w2m")
 
 # Load the package
-library(mwmm)
+library(w2m)
 
 # See all available functions
-mwmm_info()
+w2m_info()
 ```
 
 ## Quick Start
@@ -38,7 +38,7 @@ mwmm_info()
 ### 1. Calculate Temporal Entropy Weights
 
 ```r
-library(mwmm)
+library(w2m)
 library(dplyr)
 
 # Prepare panel data (countries × years × indicators)
@@ -159,12 +159,12 @@ result_minimal <- modified_entropy(data, time, alpha = exp(-0.0001))
 
 | Function | Description |
 |----------|-------------|
-| `plot.mwmm_entropy()` | Plot entropy weight evolution |
+| `plot.w2m_entropy()` | Plot entropy weight evolution |
 | `plot_entropy_faceted()` | Faceted plot by dimension (paper-style) |
 | `world_choropleth()` | World map with Mollweide projection |
 | `trajectory_plot()` | Time series trajectories |
 | `scatter_labeled()` | Scatter plot with smart labels |
-| `theme_mwmm()` | Publication-ready ggplot theme |
+| `theme_w2m()` | Publication-ready ggplot theme |
 
 ### Utilities
 
@@ -179,7 +179,7 @@ result_minimal <- modified_entropy(data, time, alpha = exp(-0.0001))
 ## Example: Full Workflow
 
 ```r
-library(mwmm)
+library(w2m)
 library(dplyr)
 library(tidyr)
 
@@ -256,11 +256,11 @@ This toolkit has been used in:
 ## Citation
 
 ```bibtex
-@software{mwmm,
+@software{w2m,
   author = {Htitich, Mohamed},
-  title = {mwmm: Measuring What Matters Most - Temporal Entropy Weighting for Sustainable Development},
+  title = {w2m: Measuring What Matters Most - Temporal Entropy Weighting for Sustainable Development},
   year = {2025},
-  url = {https://github.com/MohamedHtitich1/mwmm}
+  url = {https://github.com/MohamedHtitich1/w2m}
 }
 
 @article{htitich2025evolving,
