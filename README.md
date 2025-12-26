@@ -99,8 +99,8 @@ plot_entropy_faceted(result, dimensions, ncol = 2)
 
 The entropy of an indicator measures how much it discriminates between units:
 
-- **Low entropy**: All countries have similar values → Low discriminating power
-- **High entropy**: Values are spread out → High discriminating power
+- **High entropy**: All countries have similar values → Low discriminating power
+- **Low entropy**: Values are spread out → High discriminating power
 
 The modified entropy method extends this by:
 
@@ -137,7 +137,7 @@ result_minimal <- modified_entropy(data, time, alpha = exp(-0.0001))
 |----------|-------------|
 | `calculate_cesp()` | Carbon Efficiency of Social Progress |
 | `calculate_jts()` | Just Transition Score (CESP + Material Footprint) |
-| `calculate_mpi()` | Mazziotta-Pareto Index (penalizes imbalance) |
+| `calculate_mpi()` | Mazziotta-Pareto Index (penalizes imbalance for non-compensatory aggregation) |
 
 ### Statistical Analysis
 
@@ -247,11 +247,9 @@ This toolkit has been used in:
 
 1. **"The Evolving Importance of Social and Governance Measures Over Time"** - The original paper developing the modified entropy method
 
-2. **Carbon Efficiency of Social Progress (CESP)** - *Geography and Sustainability* (under revision)
+2. **Climate Perceptions Index** - *Measurement*
 
-3. **Climate Perceptions Index** - *Environmental and Sustainability Indicators*
-
-4. **Just Transition Score** - *Measurement*
+3. **Just Transition Score** - *Environmental and Sustainability Indicators*
 
 ## Citation
 
@@ -264,10 +262,11 @@ This toolkit has been used in:
 }
 
 @article{htitich2025evolving,
-  author = {Htitich, Mohamed},
-  title = {The Evolving Importance of Social and Governance Measures Over Time},
-  journal = {Working Paper},
-  year = {2025}
+  title={The Evolving “Importance” of Social and Governance Measures Over Time},
+  author={Htitich, Mohamed and Harm{\'a}{\v{c}}ek, Jarom{\'\i}r and Krylova, Petra},
+  journal={Global Policy},
+  year={2025},
+  publisher={Wiley Online Library}
 }
 ```
 
