@@ -287,7 +287,7 @@ This toolkit has been used in:
 
 **Mohamed Htitich, PhD**
 
-- Email: mohamed.htitich@gmail.com
+- Email: m.ahtitich@gmail.com (or outlook.com)
 - GitHub: [@MohamedHtitich1](https://github.com/MohamedHtitich1)
 
 ## License
